@@ -10,7 +10,8 @@
       embedded
       vr-mode-ui="enabled: false;"
       renderer="logarithmicDepthBuffer: true;"
-      arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+      arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'
+      id="scene">
 
       <a-marker type="barcode" value="0">
         <a-plane id="imagePlane" position="0 1 0" rotation="-90 0 0" width="5.4" height="5.4" material="shader: flat; scale: 2 2 2 " src="assets/sample-ar-1.png"></a-plane></a-entity>
